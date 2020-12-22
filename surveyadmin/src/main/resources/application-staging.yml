@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    include: url-staging
+  main:
+    allow-bean-definition-overriding: true
+
+server:
+  port: 8080

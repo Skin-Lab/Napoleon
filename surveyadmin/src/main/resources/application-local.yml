@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    include: url-local
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/test_db?characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: skinlab123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+server:
+  port: 8080
